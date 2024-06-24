@@ -12,7 +12,9 @@
 body {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .grid-container {
@@ -31,5 +33,5 @@ body {
 
 .grid{
   flex-grow: 1;
-  border: 1px solid black;
+  border: 1px solid grey;
 }
